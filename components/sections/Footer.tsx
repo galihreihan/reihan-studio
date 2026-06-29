@@ -2,17 +2,17 @@ import { Divider } from "@/components/ui/Divider";
 import { Section } from "@/components/ui/Section";
 
 const footerLinks = {
-  Studio: [
+  Explore: [
     { label: "Work", href: "#work" },
     { label: "Services", href: "#services" },
     { label: "Process", href: "#process" },
     { label: "FAQ", href: "#faq" },
   ],
   Contact: [
-    { label: "Start a Project", href: "mailto:hello@studio.co" },
-    { label: "hello@studio.co", href: "mailto:hello@studio.co" },
-    { label: "Twitter / X", href: "#" },
-    { label: "LinkedIn", href: "#" },
+    { label: "Book Free Consultation", href: "https://wa.me/6287864200926" },
+    { label: "reihan.gfarel@gmail.com", href: "mailto:reihan.gfarel@gmail.com" },
+    { label: "WhatsApp", href: "https://wa.me/6287864200926" },
+    { label: "087864200926", href: "https://wa.me/6287864200926" },
   ],
 };
 
@@ -32,11 +32,11 @@ export function Footer() {
                 href="/"
                 className="text-xl font-semibold tracking-[-0.03em] text-white block mb-4"
               >
-                studio<span className="text-white/20">.</span>
+                Eleven Studio
               </a>
               <p className="text-sm text-white/35 leading-relaxed max-w-xs">
-                Premium websites and digital products for ambitious businesses.
-                Based globally, working everywhere.
+                Premium websites, dashboards, landing pages, booking systems,
+                and modern web applications for ambitious businesses.
               </p>
             </div>
 
@@ -66,7 +66,7 @@ export function Footer() {
 
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-xs text-white/20">
-              © {year} Studio. All rights reserved.
+              © {year} Eleven Studio. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
               <a

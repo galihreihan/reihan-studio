@@ -38,7 +38,7 @@ export function Navbar() {
             href="/"
             className="text-sm font-semibold tracking-[-0.02em] text-white"
           >
-            studio<span className="text-white/30">.</span>
+            Eleven Studio
           </a>
 
           {/* Desktop nav */}
@@ -56,8 +56,8 @@ export function Navbar() {
 
           {/* CTA */}
           <div className="hidden md:flex">
-            <Button variant="primary" href="#contact">
-              Start a Project
+            <Button variant="primary" href="https://wa.me/6287864200926">
+              Get Free Quote
             </Button>
           </div>
 
@@ -104,8 +104,8 @@ export function Navbar() {
             </a>
           ))}
           <div className="pt-2">
-            <Button variant="primary" href="#contact" className="w-full justify-center">
-              Start a Project
+            <Button variant="primary" href="https://wa.me/6287864200926" className="w-full justify-center">
+              Get Free Quote
             </Button>
           </div>
         </div>

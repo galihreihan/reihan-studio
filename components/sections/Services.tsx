@@ -6,6 +6,10 @@ import {
   Code2,
   Zap,
   BarChart3,
+  LayoutTemplate,
+  Monitor,
+  CalendarDays,
+  Sparkles,
 } from "lucide-react";
 import { FadeIn } from "@/components/ui/FadeIn";
 import { Section, SectionLabel } from "@/components/ui/Section";
@@ -22,46 +26,45 @@ interface Service {
 const services: Service[] = [
   {
     icon: Layers,
-    title: "Web Design",
+    title: "Premium Company Website",
     description:
-      "We craft visual identities and interfaces that feel premium from the first pixel. Every decision — from the typeface to the micro-interaction — is intentional.",
-    deliverables: [
-      "Brand direction",
-      "UI/UX design",
-      "Design system",
-      "Prototype",
-    ],
+      "A refined online presence that communicates credibility, showcases your offer clearly, and gives your business a polished digital front door.",
+    deliverables: ["Brand-aligned experience", "Clear messaging", "Higher trust", "Stronger first impression"],
+  },
+  {
+    icon: LayoutTemplate,
+    title: "High-Converting Landing Page",
+    description:
+      "A focused conversion asset designed to turn traffic into enquiries, leads, or sales with sharper positioning and stronger user flow.",
+    deliverables: ["Sharper value proposition", "Clear calls to action", "Better conversion", "Faster results"],
+  },
+  {
+    icon: Monitor,
+    title: "Admin Dashboard",
+    description:
+      "A clean, efficient internal interface that helps teams manage data, workflows, and operations with greater clarity and speed.",
+    deliverables: ["Operational clarity", "Better usability", "Faster workflow", "Scalable interface"],
+  },
+  {
+    icon: CalendarDays,
+    title: "Booking & Reservation System",
+    description:
+      "A frictionless booking experience that makes scheduling simple for clients while helping your business run more smoothly behind the scenes.",
+    deliverables: ["Streamlined booking", "Reduced friction", "Better client experience", "Reliable automation"],
   },
   {
     icon: Code2,
-    title: "Web Development",
+    title: "Custom Business Web Application",
     description:
-      "Production-grade code built on modern frameworks. Fast, accessible, and maintainable by your team long after we've shipped.",
-    deliverables: ["Next.js / React", "TypeScript", "CMS integration", "SEO"],
+      "A tailored digital product built for your operations, customers, or internal processes — designed to perform reliably and scale with your business.",
+    deliverables: ["Tailored functionality", "Modern architecture", "Long-term scalability", "Business efficiency"],
   },
   {
-    icon: Zap,
-    title: "Digital Products",
+    icon: Sparkles,
+    title: "Website Redesign & Optimization",
     description:
-      "From SaaS dashboards to customer portals — we build the complex interfaces your business needs to operate at a higher level.",
-    deliverables: [
-      "Product strategy",
-      "User research",
-      "MVP build",
-      "Iteration",
-    ],
-  },
-  {
-    icon: BarChart3,
-    title: "Growth & CRO",
-    description:
-      "Design that converts. We analyse your funnel, identify friction points, and rebuild the experience around what actually moves the needle.",
-    deliverables: [
-      "Conversion audit",
-      "A/B testing",
-      "Analytics setup",
-      "Reporting",
-    ],
+      "A strategic refresh of an existing site to improve performance, clarity, and conversion without losing the strengths you already have.",
+    deliverables: ["Improved experience", "Stronger positioning", "Faster performance", "Better engagement"],
   },
 ];
 
@@ -74,9 +77,9 @@ export function Services() {
         <FadeIn>
           <SectionLabel>Services</SectionLabel>
           <h2 className="text-[clamp(1.8rem,4vw,3rem)] font-semibold tracking-[-0.03em] leading-tight text-white mb-16 max-w-lg">
-            Everything you need
+            Premium digital solutions
             <br />
-            <span className="text-white/30">under one roof.</span>
+            <span className="text-white/30">for businesses that expect more.</span>
           </h2>
         </FadeIn>
 

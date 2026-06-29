@@ -41,7 +41,7 @@ export function Hero() {
         <motion.div {...fadeUp(0)} className="mb-10">
           <span className="inline-flex items-center gap-2 text-xs font-mono tracking-widest text-white/30 uppercase">
             <span className="w-1 h-1 rounded-full bg-green-400/80 animate-pulse" />
-            Available for new projects
+            Open for select new projects
           </span>
         </motion.div>
 
@@ -50,9 +50,9 @@ export function Hero() {
           {...fadeUp(STAGGER)}
           className="text-[clamp(2.4rem,6vw,5.5rem)] font-semibold tracking-[-0.04em] leading-[1.08] text-white mb-6"
         >
-          Premium websites that
+          Premium websites and digital products
           <br />
-          <span className="text-white/40">help businesses earn trust.</span>
+          <span className="text-white/40">that help ambitious businesses grow.</span>
         </motion.h1>
 
         {/* Subheadline */}
@@ -60,8 +60,9 @@ export function Hero() {
           {...fadeUp(STAGGER * 2)}
           className="text-[clamp(1rem,2vw,1.2rem)] text-white/40 leading-relaxed max-w-xl mx-auto mb-12 tracking-[-0.01em]"
         >
-          We design and build modern websites and digital products for ambitious
-          businesses that want to stand out.
+          Eleven Studio designs and develops high-converting websites,
+          dashboards, landing pages, booking systems, and modern web
+          applications for companies that expect more.
         </motion.p>
 
         {/* CTAs */}
@@ -69,24 +70,24 @@ export function Hero() {
           {...fadeUp(STAGGER * 3)}
           className="flex flex-col sm:flex-row items-center justify-center gap-3"
         >
-          <Button variant="primary" href="#contact" className="text-sm px-6 py-3">
-            Start a Project
+          <Button variant="primary" href="https://wa.me/6287864200926" className="text-sm px-6 py-3">
+            Book Free Consultation
             <ArrowRight size={14} />
           </Button>
-          <Button variant="ghost" href="#work" className="text-sm px-6 py-3">
-            View Work
+          <Button variant="ghost" href="https://wa.me/6287864200926" className="text-sm px-6 py-3">
+            Get Free Quote
           </Button>
         </motion.div>
 
-        {/* Social proof */}
+        {/* Value propositions */}
         <motion.div
           {...fadeUp(STAGGER * 4)}
           className="mt-20 flex flex-col sm:flex-row items-center justify-center gap-8"
         >
           {[
-            { value: "40+", label: "Projects delivered" },
-            { value: "98%", label: "Client satisfaction" },
-            { value: "5★", label: "Average rating" },
+            { value: "Clear scope", label: "Every engagement starts with a focused brief" },
+            { value: "Premium UX", label: "Crafted interfaces that feel elevated and effortless" },
+            { value: "Launch-ready", label: "Built for performance, clarity, and growth" },
           ].map(({ value, label }) => (
             <div key={label} className="text-center">
               <div className="text-2xl font-semibold tracking-[-0.03em] text-white">

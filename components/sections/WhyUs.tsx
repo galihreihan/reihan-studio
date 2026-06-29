@@ -7,34 +7,34 @@ import { Divider } from "@/components/ui/Divider";
 
 const differentiators = [
   {
-    title: "Senior talent, every project",
+    title: "Senior expertise on every engagement",
     description:
-      "No juniors. No outsourcing. The people you talk to are the people who build your product.",
+      "The people you meet are the people shaping the strategy, design, and build — with no handoff friction and no unnecessary layers.",
   },
   {
-    title: "Design and code in one team",
+    title: "Strategy, design, and development in one team",
     description:
-      "No handoff friction. We move from concept to production faster because design and engineering work together from day one.",
+      "We move from concept to production faster because every part of the experience is considered together from the outset.",
   },
   {
-    title: "Fixed-scope, fixed-price",
+    title: "Clear scope, clear investment",
     description:
-      "Know exactly what you're getting and what you're paying before we start. No surprises, no scope creep.",
+      "You get a precise proposal, a defined delivery plan, and a shared understanding of what success looks like before work begins.",
   },
   {
-    title: "Opinionated about quality",
+    title: "Thoughtful, high-standard execution",
     description:
-      "We push back when something won't serve your users. Our name is on the work too.",
+      "We challenge ideas that do not serve your users or your business, and we raise the bar on quality throughout the process.",
   },
   {
-    title: "Post-launch support",
+    title: "Support after launch",
     description:
-      "We don't disappear after delivery. Every project includes a 30-day support window.",
+      "We stay involved after delivery to help you refine, improve, and scale the experience with confidence.",
   },
   {
-    title: "Built to hand over",
+    title: "Built to be maintained",
     description:
-      "Your team can maintain and extend what we build. Clean code, full documentation, zero lock-in.",
+      "Your team gets clean code, clear documentation, and a foundation that is easy to extend without lock-in.",
   },
 ];
 
@@ -48,36 +48,21 @@ export function WhyUs() {
           <FadeIn>
             <SectionLabel>Why Choose Us</SectionLabel>
             <h2 className="text-[clamp(1.8rem,4vw,3rem)] font-semibold tracking-[-0.03em] leading-tight text-white mb-6">
-              We care about
+              Built for businesses
               <br />
-              <span className="text-white/30">what ships, not what demos.</span>
+              <span className="text-white/30">that expect more from their website.</span>
             </h2>
             <p className="text-base text-white/40 leading-relaxed max-w-sm">
-              Most agencies optimise for presentations. We optimise for the
-              real-world experience of your customers — and for your business
-              results.
+              Most agencies focus on aesthetics. We focus on the experience your
+              customers feel and the outcomes your business needs.
             </p>
 
-            {/* Testimonial */}
             <div className="mt-12 p-6 rounded-xl border border-white/[0.06] bg-white/[0.02]">
-              <p className="text-sm text-white/60 leading-relaxed italic mb-4">
-                &ldquo;They challenged us when our instincts were wrong, and
-                delivered something we could never have spec&apos;d ourselves.
-                Best web investment we&apos;ve made.&rdquo;
+              <p className="text-sm text-white/60 leading-relaxed mb-4">
+                Your website should feel as refined as your offer. We build
+                digital experiences that earn trust quickly and convert with
+                confidence.
               </p>
-              <div className="flex items-center gap-3">
-                <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center text-xs font-medium text-white/50">
-                  AR
-                </div>
-                <div>
-                  <div className="text-xs font-medium text-white/60">
-                    Alex Reeves
-                  </div>
-                  <div className="text-[10px] text-white/25">
-                    CEO, Meridian Finance
-                  </div>
-                </div>
-              </div>
             </div>
           </FadeIn>
 

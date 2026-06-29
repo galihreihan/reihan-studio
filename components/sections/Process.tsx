@@ -9,35 +9,35 @@ const steps = [
     phase: "Discovery",
     duration: "Week 1",
     description:
-      "We dig into your business goals, target audience, and competitive landscape. No briefs, just conversations. We need to understand the problem before we design the solution.",
+      "We begin with a focused conversation about your goals, audience, and growth priorities. The aim is to understand the opportunity before we shape the experience.",
     outputs: ["Scope document", "Project timeline", "Kick-off call"],
   },
   {
     phase: "Strategy",
     duration: "Week 1–2",
     description:
-      "Information architecture, user flows, and the visual direction. We align on the approach before a single pixel is placed. This prevents expensive changes later.",
+      "We define the structure, user journeys, and visual direction before a single pixel is placed so the experience feels intentional from the start.",
     outputs: ["Sitemap", "Wireframes", "Moodboard"],
   },
   {
     phase: "Design",
     duration: "Week 2–4",
     description:
-      "High-fidelity screens across every key viewport. We present, you review, we refine. Two rounds of revisions are included — in practice, we rarely need both.",
+      "We turn the direction into refined interfaces for every key screen and interaction, then refine them with your feedback until the experience feels complete.",
     outputs: ["Full UI design", "Design system", "Prototype"],
   },
   {
     phase: "Build",
     duration: "Week 4–8",
     description:
-      "Production code. Every component is typed, tested, and accessible. We ship to a staging environment so you can review before anything touches your domain.",
+      "We build the experience with clean, scalable code and bring it to a staging environment so you can review everything before launch.",
     outputs: ["Staging site", "CMS setup", "Performance report"],
   },
   {
     phase: "Launch",
     duration: "Week 8",
     description:
-      "We handle the deployment, domain setup, and a final round of QA across devices. You get a walkthrough call, documentation, and 30 days of included support.",
+      "We handle deployment, QA, and handover so the launch feels seamless. You receive a walkthrough, documentation, and continued support after go-live.",
     outputs: ["Live site", "Handover docs", "30-day support"],
   },
 ];
@@ -51,13 +51,14 @@ export function Process() {
         <FadeIn>
           <SectionLabel>Process</SectionLabel>
           <h2 className="text-[clamp(1.8rem,4vw,3rem)] font-semibold tracking-[-0.03em] leading-tight text-white mb-4">
-            From idea to live site
+            A clear path from strategy
             <br />
-            <span className="text-white/30">in eight weeks.</span>
+            <span className="text-white/30">to launch.</span>
           </h2>
           <p className="text-base text-white/40 max-w-md mb-16 leading-relaxed">
-            A clear process means no surprises. You know what&apos;s happening,
-            when it&apos;s happening, and what&apos;s expected of you at every stage.
+            Our process is structured, collaborative, and transparent so you
+            always know what comes next and how each step supports the final
+            result.
           </p>
         </FadeIn>
 

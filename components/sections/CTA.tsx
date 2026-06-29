@@ -53,9 +53,9 @@ export function CTA() {
                 transition={{ duration: 0.65, delay: 0.1, ease: [0.21, 0.47, 0.32, 0.98] }}
                 className="text-[clamp(2rem,5vw,4rem)] font-semibold tracking-[-0.04em] leading-[1.1] text-white mb-6 max-w-2xl mx-auto"
               >
-                Ready to build something
+                Ready to build a sharper
                 <br />
-                <span className="text-white/35">you&apos;re proud of?</span>
+                <span className="text-white/35">digital presence?</span>
               </motion.h2>
 
               <motion.p
@@ -65,8 +65,9 @@ export function CTA() {
                 transition={{ duration: 0.65, delay: 0.2, ease: [0.21, 0.47, 0.32, 0.98] }}
                 className="text-base text-white/40 mb-10 max-w-sm mx-auto leading-relaxed"
               >
-                Tell us about your project. We&apos;ll reply with a clear proposal
-                in 48 hours.
+                Share your goals and we&apos;ll shape a premium website,
+                dashboard, landing page, booking system, or web application
+                that helps your business grow.
               </motion.p>
 
               <motion.div
@@ -78,18 +79,18 @@ export function CTA() {
               >
                 <Button
                   variant="primary"
-                  href="mailto:hello@studio.co"
+                  href="https://wa.me/6287864200926"
                   className="text-sm px-7 py-3"
                 >
-                  Start a Project
+                  Book Free Consultation
                   <ArrowRight size={14} />
                 </Button>
                 <Button
                   variant="ghost"
-                  href="mailto:hello@studio.co"
+                  href="mailto:reihan.gfarel@gmail.com"
                   className="text-sm px-6 py-3"
                 >
-                  hello@studio.co
+                  reihan.gfarel@gmail.com
                 </Button>
               </motion.div>
             </div>

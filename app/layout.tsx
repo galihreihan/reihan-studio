@@ -2,28 +2,31 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Studio — Premium Web Design & Development",
+  title: "Eleven Studio — Premium Web Design & Development",
   description:
-    "We design and build modern websites and digital products for ambitious businesses that want to stand out.",
+    "Eleven Studio creates premium websites, dashboards, landing pages, booking systems, and modern web applications for ambitious businesses.",
   keywords: [
     "web design",
     "web development",
-    "digital studio",
+    "Eleven Studio",
     "premium websites",
+    "landing pages",
+    "booking systems",
+    "modern web apps",
     "Next.js",
     "TypeScript",
   ],
   openGraph: {
-    title: "Studio — Premium Web Design & Development",
+    title: "Eleven Studio — Premium Web Design & Development",
     description:
-      "We design and build modern websites and digital products for ambitious businesses that want to stand out.",
+      "Eleven Studio creates premium websites, dashboards, landing pages, booking systems, and modern web applications for ambitious businesses.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Studio — Premium Web Design & Development",
+    title: "Eleven Studio — Premium Web Design & Development",
     description:
-      "We design and build modern websites and digital products for ambitious businesses that want to stand out.",
+      "Eleven Studio creates premium websites, dashboards, landing pages, booking systems, and modern web applications for ambitious businesses.",
   },
 };
 

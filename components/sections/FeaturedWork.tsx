@@ -19,43 +19,63 @@ interface Project {
 const projects: Project[] = [
   {
     id: "01",
-    name: "Meridian Finance",
-    category: "Fintech",
+    name: "Luxury Hotel Booking Platform",
+    category: "Hospitality",
     description:
-      "End-to-end redesign of a B2B financial platform — cleaner information hierarchy, faster onboarding, and a design system that scales.",
-    tags: ["Web Design", "Design System", "Next.js"],
+      "A premium booking experience designed for high-end hospitality, balancing elegance, ease of use, and conversion-focused flow.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
     year: "2024",
     accent: "from-blue-950/40 to-transparent",
   },
   {
     id: "02",
-    name: "Volta Studio",
-    category: "Creative Agency",
+    name: "Trading Analytics Dashboard",
+    category: "Fintech",
     description:
-      "Brand identity and digital presence for an architecture studio. Typography-led with deliberate restraint and tactile texture.",
-    tags: ["Branding", "Web Development", "Motion"],
+      "A sophisticated analytics interface crafted for fast-moving decision-making, with a clear hierarchy and premium data presentation.",
+    tags: ["React", "TypeScript", "Charts"],
     year: "2024",
     accent: "from-stone-900/60 to-transparent",
   },
   {
     id: "03",
-    name: "Harrow Health",
-    category: "Healthcare",
+    name: "Modern Restaurant Website",
+    category: "Food & Beverage",
     description:
-      "Patient-facing portal and marketing site. Accessibility-first design that builds confidence without the clinical coldness.",
-    tags: ["Product Design", "React", "Accessibility"],
+      "A refined digital presence for a contemporary restaurant brand, built to showcase atmosphere, menu, and reservations with confidence.",
+    tags: ["Next.js", "Framer Motion", "CMS"],
     year: "2023",
     accent: "from-emerald-950/30 to-transparent",
   },
   {
     id: "04",
-    name: "Plinth Commerce",
-    category: "E-commerce",
+    name: "Real Estate Company Website",
+    category: "Real Estate",
     description:
-      "Conversion-optimised storefront for a premium lifestyle brand. Reduced checkout friction, increased average order value by 34%.",
-    tags: ["E-commerce", "CRO", "Shopify"],
+      "A polished property experience focused on trust, clarity, and effortless browsing for buyers and investors.",
+    tags: ["Next.js", "Tailwind CSS", "SEO"],
     year: "2023",
     accent: "from-purple-950/30 to-transparent",
+  },
+  {
+    id: "05",
+    name: "Business Management Dashboard",
+    category: "SaaS",
+    description:
+      "A structured operations dashboard designed to simplify reporting, streamline workflows, and improve day-to-day team efficiency.",
+    tags: ["React", "TypeScript", "Design System"],
+    year: "2023",
+    accent: "from-cyan-950/30 to-transparent",
+  },
+  {
+    id: "06",
+    name: "Fintech Landing Page",
+    category: "Fintech",
+    description:
+      "A conversion-led landing experience built to communicate trust, product value, and a premium brand story at first glance.",
+    tags: ["Next.js", "Tailwind CSS", "Conversion"],
+    year: "2022",
+    accent: "from-violet-950/30 to-transparent",
   },
 ];
 
@@ -69,9 +89,9 @@ export function FeaturedWork() {
           <SectionLabel>Featured Work</SectionLabel>
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
             <h2 className="text-[clamp(1.8rem,4vw,3rem)] font-semibold tracking-[-0.03em] leading-tight text-white max-w-md">
-              Selected projects
+              Selected showcase projects
               <br />
-              <span className="text-white/30">from the last two years.</span>
+              <span className="text-white/30">for premium digital experiences.</span>
             </h2>
             <a
               href="#contact"
@@ -114,9 +134,14 @@ export function FeaturedWork() {
                     </span>
                   </div>
 
-                  <h3 className="text-xl font-semibold tracking-[-0.02em] text-white mb-3">
-                    {project.name}
-                  </h3>
+                  <div className="mb-3">
+                    <h3 className="text-xl font-semibold tracking-[-0.02em] text-white mb-2">
+                      {project.name}
+                    </h3>
+                    <span className="inline-flex items-center text-[10px] font-mono tracking-[0.2em] uppercase text-white/25 bg-white/[0.05] px-2.5 py-1 rounded-full">
+                      Concept Project
+                    </span>
+                  </div>
                   <p className="text-sm text-white/40 leading-relaxed">
                     {project.description}
                   </p>
